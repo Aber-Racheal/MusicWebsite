@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Preludes-Weddings</title>
+</head>
+<body>
+
+
+
+
+
+
+
+
+    
+
+    <div class="content">
+        <div class="leftcol">
+            <h1>Preludes</h1>
+         </div>
+         
+         <div class="rightcol">
+            <p>Click Here To Play</p>
+            <img src="./MusicMedia/playbutton.png" alt="playbutton" id="icon">
+        </div>
+    </div>
+
+
+
+    <audio id="mySong">
+        <source src="./MusicMedia/cozycoffeehouse.mp3">
+     </audio>
+
+     <script>
+        var mySong=document.getElementById("mySong");
+        var icon=document.getElementById("icon");
+
+
+           icon.onclick=function(){
+         
+            if (mySong.paused){
+                mySong.play();
+                icon.src="./MusicMedia/pause.png";
+            }
+            else{
+                mySong.pause();
+                icon.src="./MusicMedia/playbutton.png";
+            }
+
+           }
+     </script>
+    
+</body>
+</html>
