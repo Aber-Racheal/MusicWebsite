@@ -95,3 +95,255 @@ body{
     justify-content: center;
     justify-content: space-evenly;
 }
+
+
+
+
+/* SIGN UP FIRST COLUMN */
+
+
+
+/* THE HOME */
+
+body{
+  background-color: black;
+  color: whitesmoke;
+  padding: 0.5%;
+
+}
+
+.whole-page{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  
+}
+
+
+/* FIRST COLUMN */
+.SideBar{
+  display: flex;
+  flex-direction: column;
+  }
+
+
+.HomeAndSearch{
+  background-color: rgb(37, 37, 37);
+  height: 150px;
+  width: 100%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  margin-left: 1%;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+
+
+.LibraryAndPlus{
+  background-color: rgb(37, 37, 37); 
+  margin-top: 10%;
+  width: 20%;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  margin-left: 0%;
+  position: fixed;
+  
+}
+
+
+.create{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  margin-bottom: 25%;
+  margin-left: 2%;
+}
+
+
+.lib{
+  display: flex;
+  gap: 40px;
+}
+
+.library{
+  display: flex;
+
+}
+
+
+#playlist-button{
+  background-color: whitesmoke;
+  border-radius: 20px;
+  height: 50px;
+  border: 2px solid whitesmoke;
+  width: 40%;
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+
+#browse-button{
+  height: 50px;
+  width: 45%;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 3%;
+
+
+}
+
+
+#playlist-para{
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3%;
+}
+
+#podcast-para{
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3%;
+}
+
+
+.create-your-first-playlist{
+  background-color: rgb(58, 57, 57);
+  border-radius: 10px;
+  margin-right: 3%;
+  padding-bottom: 5%;
+}
+
+.lets-find{
+  background-color: rgb(58, 57, 57);
+  border-radius: 10px;
+  margin-right: 3%;
+  padding-bottom: 5%;
+  margin-top: 5%;
+}
+
+
+
+/* SIGN UP MIDDLE SECTION */
+
+.top-middle-section{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-top: 10px;
+  margin-left: 30px;
+ 
+  
+}
+
+
+.middle-section-div{
+  border: 2px solid rgb(44, 43, 43);
+  background-color: rgb(44, 43, 43);
+  width: 58%;
+  border-radius: 30px;
+  height: 934px;
+  
+}
+
+#top-arrows{
+  width: 50%;
+  padding: 3px;
+  
+}
+
+.right-and-left-arrow{
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+
+
+#explore-button{
+  border-radius: 20px;
+  border: white 2px solid;
+}
+
+
+#install-app{
+  
+}
+
+
+#notification{
+  width: 40px;
+  height: 40px;
+  background-color: wheat;
+  border-radius: 50px;
+  
+}
+
+
+#profile-picture{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+#all-music-podcasts{
+  border-radius: 10px;
+  border: solid 2px white;
+  width: 10%;
+}
+
+
+
+
+/* MUSIC BOXES OF DIFFERENT COLLECTIONS*/
+
+
+.your-collection-show-all{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  padding: 5px;
+
+}
+
+
+
+/* <!-- THE MUSIC BOXES  */
+
+.music-boxes{
+display: flex;
+gap: 50px;
+margin: 2%;
+margin-top: 0%;
+}
+
+#music-box{
+  border: 2px solid ;
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  
+}
+
+
+
+
+
+/* THE LAST COULMN */
+
+.the-last-column{
+background-color:rgb(44, 43, 43) ;
+width: 20%;
+height: 1000px;
+border-radius: 20px;
+height: 935px;
+
+}
